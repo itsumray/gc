@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Welcome, <span id="userName"></span></h2>
+        <h3>Your Groups</h3>
+        <ul id="groupList"></ul>
+        
+        <h3>Create a New Group</h3>
+        <form id="createGroupForm">
+            <label for="groupName">Group Name:</label>
+            <input type="text" id="groupName" required>
+            <label for="groupPassword">Group Password:</label>
+            <input type="password" id="groupPassword" required>
+            <button type="submit">Create Group</button>
+        </form>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
